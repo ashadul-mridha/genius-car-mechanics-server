@@ -102,6 +102,10 @@ app.get('/' , (req , res) => {
     res.send('Hello Bd People');
 })
 
+app.get('/hello' , (req , res) => {
+    res.send('Hey Allah Please Help Me!')
+})
+
 app.listen(port , () => {
     console.log('Ashadul Try Again You Can Do It');
 })
